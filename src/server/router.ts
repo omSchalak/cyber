@@ -12,7 +12,7 @@ import {
   getGatewayOpenPgpCredentials
 } from './credentials-store';
 import { addAuditEvent, getAuditEvents, clearAuditEvents } from './audit-store';
-import { ProcessedEmailResult, ProcessingStage } from '../../src/types';
+import { ProcessedEmailResult, ProcessingStage } from '../types';
 
 export interface ApiResponse<T = unknown> {
   status: number;

@@ -1,4 +1,4 @@
-import { AuditEvent } from '../../src/types';
+import { AuditEvent } from '../types';
 
 // In-memory audit event store initialized with demonstration events
 let auditEvents: AuditEvent[] = [

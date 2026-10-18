@@ -5,7 +5,7 @@ import {
   verifySmimeSignature,
   encryptSmimeMessage,
   decryptSmimeMessage
-} from '../api/_lib/crypto-smime';
+} from '../src/server/crypto-smime';
 import {
   generateDemoPgpKey,
   inspectOpenPgpKey,
@@ -13,7 +13,7 @@ import {
   decryptOpenPgpMessage,
   signOpenPgpMessage,
   verifyOpenPgpSignature
-} from '../api/_lib/crypto-openpgp';
+} from '../src/server/crypto-openpgp';
 import credsData from '../generated_creds.json';
 
 describe('S/MIME Cryptographic Engine', () => {

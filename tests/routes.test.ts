@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { handleApiRequest, REGISTERED_ROUTES } from '../api/_lib/router';
+import { handleApiRequest, REGISTERED_ROUTES } from '../src/server/router';
 import credsData from '../generated_creds.json';
 
 describe('Gateway API Routes & Endpoints Coverage', () => {
